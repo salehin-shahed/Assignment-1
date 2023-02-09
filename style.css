@@ -66,5 +66,16 @@
     font-weight: 900;
     padding: 0 5px;
     color: #6de6b4;
+}
 
+.plan-title{
+    text-align: center;
+}
+
+.plan-service{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+    padding: 80px 0;
 }
