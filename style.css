@@ -4,6 +4,8 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+/* Banner Section */
+
 .header-banner {
     background-image: url(./images/banner/banner3.png);
     background-repeat: no-repeat;
@@ -36,4 +38,33 @@
     border-radius: 5px;
     border: none;
     cursor: pointer;
+}
+
+/* Service Section */
+
+.service-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px 0;
+}
+
+.service-text p{
+    padding: 25px 0;
+    line-height: 1.7em;
+}
+
+.service-list ul li{
+    list-style: none;
+    line-height: 1.9em;
+}
+
+.service-list ul li::before{    
+    content: "\f00c";
+    font-family: "Font Awesome 6 free"; 
+    font-weight: 900;
+    padding: 0 5px;
+    color: #6de6b4;
+
 }
